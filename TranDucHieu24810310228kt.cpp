@@ -113,11 +113,11 @@ int main() {
     KhachHang a[100];
 
     nhapDS(a, n);
-    cout << "\n================ DANH SACH KHACH HANG VUA NHAP ================" << endl;
+    cout << "\n DANH SACH KHACH HANG VUA NHAP" << endl;
     xuatDS(a, n);
 
     sapXep(a, n);
-    cout << "\n========== DANH SACH SAU KHI SAP XEP TANG DAN THEO TONG TIEN ==========" << endl;
+    cout << "\n DANH SACH SAU KHI SAP XEP TANG DAN THEO TONG TIEN " << endl;
     xuatDS(a, n);
 
     double x;
